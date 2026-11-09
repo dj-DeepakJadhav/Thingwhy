@@ -1,0 +1,47 @@
+# BEGIN Lens Studio managed Agents-Docs block
+.mcp.json
+.cursor/mcp.json
+.vscode/mcp.json
+.codex/config.toml
+.claude/settings.local.json
+# END Lens Studio managed Agents-Docs block
+
+# Added by Lens Studio (LEAF plugin)
+leaf_plugin_settings.json
+
+# Local Lens Studio state
+/Cache/
+/Support/
+/Workspaces/
+/PluginsUserPreferences/
+/ls-live-instance.json
+/.virtual-scene.json
+/*.esproj.*.lock
+*.pem
+*.pfx
+*.p12
+*.key
+
+# Local agent setup
+/.agents/
+/.clad/
+/.claude/
+/.codex/
+/.cursor/
+/.vscode/
+/agent/
+/skills-lock.json
+
+# Local submission archives
+/release/
+
+# Local documentation and submission work
+/docs/
+/devpost/*
+!/devpost/tests/
+/AGENTS.md
+/CLAUDE.md
+/Plugins/
+/node_modules/
+.env
+.env.*

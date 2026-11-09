@@ -1,0 +1,16 @@
+import assert from "node:assert/strict"
+import { ActionReplay } from "../../Assets/Thingwhy/ActionReplay.ts"
+const replay = new ActionReplay()
+assert.equal(replay.start(), false)
+replay.remember(2, 7)
+assert.equal(replay.start(), true)
+assert.equal(replay.tick(.5)?.progress, .5)
+assert.equal(replay.tick(.1, true)?.progress, .5)
+assert.deepEqual(replay.tick(.5), {from:2,to:7,progress:1,holding:true})
+assert.equal(replay.tick(.2)?.holding, true)
+assert.equal(replay.tick(1), null)
+assert.equal(replay.start(), true)
+assert.equal(replay.tick(0)?.progress, 0)
+replay.clear()
+assert.equal(replay.start(), false)
+console.log("Replay clock checks passed")

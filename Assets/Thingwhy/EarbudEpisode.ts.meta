@@ -1,0 +1,55 @@
+- !<AssetImportMetadata/baf1c3eb-0feb-48b2-a0cc-1fccf45224b1>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 59fcbee2-3910-4d2d-973d-08c72a5a5b73
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 59fcbee2-3910-4d2d-973d-08c72a5a5b73
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> d168ccc3-8165-406b-9053-a1d1bc5c427e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/d168ccc3-8165-406b-9053-a1d1bc5c427e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: b0b8138a-2d7a-468a-bc87-75b90242fd68
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    cameraObject: false
+    experienceRoot: false
+    ui: false
+    view: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - view: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      ui: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      experienceRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType_1 view
+    - // @input AssignableType_2 ui
+    - // @input SceneObject experienceRoot
+    - // @input SceneObject cameraObject

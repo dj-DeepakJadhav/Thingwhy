@@ -1,0 +1,58 @@
+- !<AssetImportMetadata/532c0091-9e29-40ed-9bcc-c3ea4c49055f>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> eac3a5f6-e3c6-4ef6-b943-1d3ea376d74d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> eac3a5f6-e3c6-4ef6-b943-1d3ea376d74d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 7d8aa1f2-4b7c-4910-93fa-7e2a562da1ff
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/7d8aa1f2-4b7c-4910-93fa-7e2a562da1ff>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: dc614c07-638d-48fa-a580-b7fd591b8987
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    cameraObject: false
+    experienceRoot: false
+    mesh: false
+    travelSpeed: false
+    ui: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - mesh: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      ui: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      experienceRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      travelSpeed: 0.450000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input AssignableType_1 mesh {"hint":"Procedural zipper view and hand-driven pull"}'
+    - '// @input AssignableType_2 ui {"hint":"Passive UIKit control panel"}'
+    - '// @input SceneObject experienceRoot {"hint":"Authored group moved by Recenter"}'
+    - '// @input SceneObject cameraObject {"hint":"Main camera used only for manual recenter"}'
+    - '// @input float travelSpeed = 0.45 {"hint":"Slider travel per second, as fraction of full rail"}'

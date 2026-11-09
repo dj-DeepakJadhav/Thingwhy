@@ -1,0 +1,58 @@
+- !<AssetImportMetadata/f0b3aca2-9a1b-45e8-8f2a-554dcc654159>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 578c7df4-c083-4ecb-91b6-39d2ff50c6cc
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 578c7df4-c083-4ecb-91b6-39d2ff50c6cc
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 680b27c6-9c85-4715-9dbd-2e44149d72a0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/680b27c6-9c85-4715-9dbd-2e44149d72a0>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: ea1f10a4-55a6-499c-a7ba-441ab349b7a7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    earbuds: false
+    earbudsRoot: false
+    picker: false
+    zipper: false
+    zipperRoot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - picker: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      zipperRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      earbudsRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      zipper: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      earbuds: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType_1 picker
+    - // @input SceneObject zipperRoot
+    - // @input SceneObject earbudsRoot
+    - // @input AssignableType_2 zipper
+    - // @input AssignableType_3 earbuds
