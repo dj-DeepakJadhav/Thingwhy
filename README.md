@@ -2,15 +2,11 @@
 
 Open up a zipper, noise-cancelling earbud, retractable pen, or trigger spray bottle in AR and test what makes it work.
 
-## Screenshots
+## Demo
 
-![Zipper slider replay](screenshots/ThingWhy-Zipper-replay.jpg)
+[![Watch the ThingWhy demo on YouTube](https://i.ytimg.com/vi/jn3gJTsNQvM/hqdefault.jpg)](https://youtu.be/jn3gJTsNQvM)
 
-![Earbud pressure traces](screenshots/ThingWhy-Earbuds-replay.jpg)
-
-![Pen cam cutaway](screenshots/ThingWhy-Pen-cam.jpg)
-
-![Spray bottle refill](screenshots/ThingWhy-Spray-refill.jpg)
+[Watch the 2:01 walkthrough on YouTube](https://youtu.be/jn3gJTsNQvM)
 
 ## Open in Lens Studio
 
@@ -41,6 +37,16 @@ node devpost/tests/spray-mechanism.mjs
 ```
 
 The verified target is Lens Studio's SPECS 27 Preview. Physical headset comfort and display legibility are pending.
+
+## Screenshots
+
+![Zipper slider replay](screenshots/ThingWhy-Zipper-replay.jpg)
+
+![Earbud pressure traces](screenshots/ThingWhy-Earbuds-replay.jpg)
+
+![Pen cam cutaway](screenshots/ThingWhy-Pen-cam.jpg)
+
+![Spray bottle refill](screenshots/ThingWhy-Spray-refill.jpg)
 
 ## Attribution
 
