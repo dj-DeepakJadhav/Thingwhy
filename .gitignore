@@ -39,6 +39,7 @@ leaf_plugin_settings.json
 /docs/
 /devpost/*
 !/devpost/tests/
+!/devpost/design-brief.md
 /AGENTS.md
 /CLAUDE.md
 /Plugins/
